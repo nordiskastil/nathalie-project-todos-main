@@ -2,10 +2,10 @@
 
 Replace this readme with your own information about the project. You can include things like:
 
-- Brief description of the assignment
+- Brief description of the assignment:
 Build a To do app using Context API or Zustand. You should be able to add tasks, list tasks and toggle whether a task is done or not. Keeping it simple and clean. 
 
-- How you approached the task, what tools and techniques you used, and how you planned it
+- How you approached the task, what tools and techniques you used, and how you planned it:
 I wanted to create a simple app, a bit like Google tasks but with a bit more styling. 
 
 I added a added TodoContext.jsx to setup the Context API. This file holds all state and logic for tasks, filters and dark mode. And provides functions like: addTask, removeTask, toggleTask, completeAllTasks
