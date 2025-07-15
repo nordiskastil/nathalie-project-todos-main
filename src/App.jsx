@@ -5,7 +5,7 @@ import { TodoProvider } from './context/TodoContext';
 import Header from './components/Header';
 import Stats from './components/Stats';
 import Controls from './components/Controls';
-import './styles/App.css';
+import './index.css'
 
 const App = () => {
   return (
