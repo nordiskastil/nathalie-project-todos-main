@@ -7,6 +7,10 @@ import Stats from './components/Stats';
 import Controls from './components/Controls';
 import './index.css'
 
+// TodoProvider wraps the application in the TodoProvider to provide context to all components
+// This allows components to access the todo state and functions without prop drilling
+// The TodoProvider will manage the state of todos, filters, and dark mode
+// It also provides functions to add, toggle, remove tasks, and manage filters
 const App = () => {
   return (
     <TodoProvider>
